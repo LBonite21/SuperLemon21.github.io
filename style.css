@@ -30,7 +30,8 @@
 }
 
 .carousel-img {
-  width: 1050px;
+  width: auto;
+  height: 500px;
 }
 
 .food-img {
@@ -38,7 +39,7 @@
 }
 
 .carousel-txt {
-  margin-bottom: 510px;
+  margin-bottom: 25%;
 }
 
 .center {
