@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cbad4f7233.js" crossorigin="anonymous"></script>
+
+    <title>Kidz Fun Zone</title>
+</head>
+
+<header data-spy="scroll" data-target=".navbar">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-sm nav-bar-bg navbar-dark fixed-top">
+
+        <!-- Logo -->
+        <a>
+            <img src="images/KFZ_Logo.png" alt="Logo" class="logo">
+            <!-- <h1>Logo</h1> -->
+        </a>
+
+        <!-- Collapsable Menu -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Bar Items -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+                <!-- Home -->
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link h5 nav-padding">Home</a>
+                </li>
+
+                <!-- Pricing -->
+                <li class="nav-item">
+                    <a href="pricing.html" class="nav-link h5 nav-padding">Pricing</a>
+                </li>
+
+                <!-- Experiences -->
+                <li class="nav-item">
+                    <a href="experiences.html" class="nav-link h5 nav-padding active">Experiences</a>
+                </li>
+
+                <!-- Snack Bar -->
+                <li class="nav-item">
+                    <a href="snackBar.html" class="nav-link h5 nav-padding">Snack Bar</a>
+                </li>
+
+            </ul>
+
+            <!-- Search -->
+            <form class="form-inline mr-3 search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-info" type="submit">Search</button>
+            </form>
+
+            <h1 class="white-txt">|</h1>
+
+            <!-- Shopping Cart -->
+            <a href="#cart" data-toggle="tooltip" data-placement="right" title="Cart">
+                <i id="cart" class="fas fa-shopping-cart cart"></i>
+            </a>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<body>
+
+    <!-- Experiences Container -->
+    <div class="container">
+
+        <div class="center">
+
+            <!-- Title -->
+            <h1 class="title">Experiences</h1>
+
+            <!-- Experiences Cards -->
+            <div class="border border-dark card-padding">
+
+                <!-- Bowling -->
+                <div class="card border border-dark" style="width: 18rem;">
+                    <img class="card-img-top" src="images/bowling.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bowling</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie
+                            ex in mauris blandit aliquam.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Laser Tag -->
+                <div class="card border border-dark" style="width: 18rem;">
+                    <img class="card-img-top" src="images/laser_tag.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Laser Tag</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie
+                            ex in mauris blandit aliquam.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Trampoline -->
+                <div class="card border border-dark" style="width: 18rem;">
+                    <img class="card-img-top" src="images/bounce.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Trampoline Park</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie
+                            ex in mauris blandit aliquam.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Arcade -->
+                <div class="card border border-dark" style="width: 18rem;">
+                    <img class="card-img-top" src="images/arcade.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Arcade</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie
+                            ex in mauris blandit aliquam.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+<!-- Footer -->
+<footer class="bg-dark ">
+
+    <div class="text-center py-3 white-txt">NOT A REAL WEBSITE! EDUCATIONAL PURPOSES ONLY!</div>
+
+</footer>
+<!-- Footer -->
+
+</html>

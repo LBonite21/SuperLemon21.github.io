@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cbad4f7233.js" crossorigin="anonymous"></script>
+
+    <title>Kidz Fun Zone</title>
+</head>
+
+<header data-spy="scroll" data-target=".navbar">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-sm nav-bar-bg navbar-dark fixed-top">
+
+        <!-- Logo -->
+        <a>
+            <img src="images/KFZ_Logo.png" alt="Logo" class="logo">
+            <!-- <h1>Logo</h1> -->
+        </a>
+
+        <!-- Collapsable Menu -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Bar Items -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+                <!-- Home -->
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link h5 nav-padding">Home</a>
+                </li>
+
+                <!-- Pricing -->
+                <li class="nav-item">
+                    <a href="pricing.html" class="nav-link h5 nav-padding active">Pricing</a>
+                </li>
+
+                <!-- Experiences -->
+                <li class="nav-item">
+                    <a href="experiences.html" class="nav-link h5 nav-padding">Experiences</a>
+                </li>
+
+                <!-- Snack Bar -->
+                <li class="nav-item">
+                    <a href="snackBar.html" class="nav-link h5 nav-padding">Snack Bar</a>
+                </li>
+
+            </ul>
+
+            <!-- Search -->
+            <form class="form-inline mr-3 search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-info" type="submit">Search</button>
+            </form>
+
+            <h1 class="white-txt">|</h1>
+
+            <!-- Shopping Cart -->
+            <a href="#cart" data-toggle="tooltip" data-placement="right" title="Cart">
+                <i id="cart" class="fas fa-shopping-cart cart"></i>
+            </a>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<body>
+
+    <!-- Pricing Container -->
+    <div class="container border border-dark">
+
+        <div class="center">
+
+            <!-- Title -->
+            <h1 class="title">Pricing</h1>
+
+            <!-- Pricing Table -->
+            <table class="table table-bordered">
+
+                <!-- Types of Passes -->
+                <thead class="table-secondary">
+                    <tr>
+                        <th scope="col">Half-Price Tuesdays</th>
+                        <th scope="col">Monthly Pass</th>
+                        <th scope="col">Daily Pass</th>
+                    </tr>
+                </thead>
+
+                <!-- Prices of Passes -->
+                <tbody>
+                    <tr>
+                        <td scope="row">$4.50</td>
+                        <td>$35</td>
+                        <td>$9</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div id="div-inline">
+                <!-- Image -->
+                <ul id="ul-inline">
+                    <li>
+                        <img src="images/bounce.png" alt="" class="price-img">
+                    </li>
+                    <li>
+                        <img src="images/arcade_fam.png" alt="Family Fun" class="price-img">
+                    </li>
+                    <li>
+                        <img src="images/bowling.png" alt="" class="price-img">
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+<!-- Footer -->
+<footer class="bg-dark footer">
+
+    <div class="text-center py-3 white-txt">NOT A REAL WEBSITE! EDUCATIONAL PURPOSES ONLY!</div>
+
+</footer>
+<!-- Footer -->
+
+</html>
