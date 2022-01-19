@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/cbad4f7233.js" crossorigin="anonymous"></script>
-    
-        <title>Kidz Fun Zone</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cbad4f7233.js" crossorigin="anonymous"></script>
+
+    <title>Kidz Fun Zone</title>
+</head>
 
 <header data-spy="scroll" data-target=".navbar">
 
@@ -85,6 +85,89 @@
 </header>
 
 <body>
+
+
+    <div class="container">
+
+        <div class="center">
+
+            <h1 id="food-title" class="title">Food & Snack Bar</h1>
+
+        </div>
+
+    </div>
+
+        <!-- Carousel -->
+        <div id="captions" class="carousel slide center bg-dark" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li type="button" data-bs-target="#captions" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></li>
+                <li type="button" data-bs-target="#captions" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                <li type="button" data-bs-target="#captions" data-bs-slide-to="2" aria-label="Slide 3"></li>
+                <li type="button" data-bs-target="#captions" data-bs-slide-to="3" aria-label="Slide 4"></li>
+                <li type="button" data-bs-target="#captions" data-bs-slide-to="4" aria-label="Slide 5"></li>
+            </ol>
+
+            <!-- Food Carousel Imgs -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="images/healthy_chicken.png" class="img-fluid food-img" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/chicken_wraps.png" class="img-fluid food-img" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/healthy_snacks.png" class="img-fluid food-img" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/keto_chips.png" class="img-fluid food-img" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/pasta.png" class="img-fluid food-img" alt="...">
+                </div>
+            </div>
+
+            <!-- Indicators -->
+            <a class="carousel-control-prev" href="#captions" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#captions" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col jumbotron-text">
+                    <h4 class="font-open-sans-bold col mb-sm-4">EAT AND PLAY WITH YOUR CHOICE OF OUR HEALTHY FOOD
+                        SELECTION!</h4>
+                    <p class="font-open-sans col mb-sm-4 headline-text" style="width: 750px;">Lorem ipsum dolor
+                        sit
+                        amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi
+                        ut aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia
+                        deserunt mollit anim id est laborum.</p>
+                    <h4 class="font-open-sans-bold col" style="text-align: center;">EAT HEALTHY STAY HEALTHY!</h4>
+                </div>
+                <div class="col">
+                    <img src="images/food.png" alt="..." class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
